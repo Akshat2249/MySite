@@ -1,0 +1,281 @@
+/*Middle Page*/
+
+body
+{
+	overflow: auto;
+}
+
+.main
+{
+	background-color: #990000;
+	width: 400px;
+	display: block;
+	margin: auto;
+	overflow: hidden;
+	position: fixed;
+}
+
+.main .heading
+{
+	text-align: center;
+	padding-top: 30px;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.main .photo
+{
+	width: 180px;
+	height: 180px;
+	display: block;
+	margin: auto;
+}
+
+.main .icon
+{
+	color: white;
+	padding-left: 17px;
+	padding-right: 20px;
+	font-size: 28px;
+}
+
+.main .icon:hover
+{
+	color: black;
+}
+
+.main .self
+{
+	color: white;
+	text-align: center;
+}
+
+.main .wa-qr
+{
+	width : 100px;
+	height: 100px;
+	margin-left: 35px;
+}
+
+.main .in-qr
+{
+	width : 100px;
+	height: 100px;
+	margin-left: 10px;
+}
+
+.main .resume-qr
+{
+	width : 100px;
+	height: 100px;
+	margin-left: 10px;
+}
+
+.main .wa-qr:hover
+{
+	transform: scale(1.5);
+}
+
+.main .in-qr:hover
+{
+	transform: scale(1.5);
+}
+
+.main .resume-qr:hover
+{
+	transform: scale(1.5);
+}
+
+/*Left Page*/
+
+.left
+{
+	margin-left: 15px;
+	background-color: white;
+	border: 2px solid #990000;
+	border-radius: 15px;
+	resize: both;
+}
+
+.left .skill
+{
+	text-align: center;
+	color: #990000;
+}
+
+.left .skill-head
+{
+	color: #990000;
+	padding-bottom: 5px;
+	margin-left: 10px;
+}
+
+.left .skill-set
+{
+	color: white;
+	background-color: #990000;
+	display: inline-block;
+	border-radius: 15px;
+	padding : 6px 6px 6px 6px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.educate
+{
+	border : 3px solid #990000;
+	border-radius: 15px;
+	margin-left: 15px;
+}
+
+.educate .e-head
+{
+	text-align: center;
+	color: #990000;
+}
+
+.educate .inst
+{
+	margin-left: 10px;
+	color: #990000;
+}
+
+/*Right Side*/
+
+.right
+{
+	resize: both;
+}
+
+.right .exp-head
+{
+	color: #990000;
+}
+
+.right .proj-head
+{
+	color: #990000;
+}
+
+.right .down
+{
+	background-color: #990000;
+	color: white;
+	border-radius: 15px;
+	font-size: 20px;
+	display: block;
+	margin: auto;
+	padding: 7px 10px 7px 10px;
+	margin-top: 12px;
+}
+
+.right .chat
+{
+	width: 290px;
+}
+
+.right .upper-text
+{
+	text-align: center;
+	visibility: hidden;
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	font-size: 40px;
+}
+
+.right .btn1
+{
+	position: absolute;
+	top: 60%;
+	left: 33%;
+	visibility: hidden;
+	cursor: pointer;
+}
+
+.right #proj1-pop
+{
+	display:none;
+	border : 1px solid black;
+	transform: scale(5);
+	background-color: white;
+	position: absolute;
+	top: 10%;
+	right: 100%;
+	width: 180px;
+	height: 120px;
+	z-index: 1;
+}
+
+.right #proj1-pop #btn-close1
+{
+	width: 30px;
+	background-color: #990000;
+	color: white;
+	border: 2px solid white;
+	border-radius: 15px;
+	line-height: 10px;
+	font-size: 5px;
+	position: absolute;
+	top: 1%;
+	left: 81%;
+}
+
+.right #proj1-pop .des1
+{
+	font-size: 5px;
+	color: white;
+	background-color: #990000;
+}
+
+.right .proj1:hover .upper-text
+{
+	color: #990000;
+	visibility: visible;
+	font-weight: 100px;
+}
+
+.right .proj1:hover .chat
+{
+	opacity: 0.2;
+}
+
+.right .proj1:hover .btn1
+{
+	visibility: visible;
+	border-radius: 25px;
+	color: white;
+	background-color:#990000;
+	padding: 5px 5px 5px 5px;
+	border : 3px solid white;
+}
+
+.right .e-commerce
+{
+	width: 290px;
+	height: 220px;
+}
+
+
+.right .proj1:hover .e-commerce
+{
+	opacity: 0.2;
+}
+
+.right .upper-text-2
+{
+	text-align: center;
+	visibility: hidden;
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	font-size: 23px;
+	padding-right: 40px;
+}
+
+.right .proj1:hover .upper-text-2
+{
+	color: #990000;
+	visibility: visible;
+	font-weight: 100px;
+}
